@@ -1,4 +1,6 @@
-package AbstractFactory;
+package AbstractFactory.BossFactory;
+
+import AbstractFactory.Farmarit;
 
 public class BossFarmarit implements Farmarit {
 

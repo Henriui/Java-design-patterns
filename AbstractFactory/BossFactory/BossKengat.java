@@ -1,4 +1,6 @@
-package AbstractFactory;
+package AbstractFactory.BossFactory;
+
+import AbstractFactory.Kengat;
 
 public class BossKengat implements Kengat {
 

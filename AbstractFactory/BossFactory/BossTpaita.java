@@ -1,4 +1,6 @@
-package AbstractFactory;
+package AbstractFactory.BossFactory;
+
+import AbstractFactory.Tpaita;
 
 public class BossTpaita implements Tpaita{
 

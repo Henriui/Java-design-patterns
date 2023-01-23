@@ -1,4 +1,10 @@
-package AbstractFactory;
+package AbstractFactory.AdidasFactory;
+
+import AbstractFactory.Farmarit;
+import AbstractFactory.Kengat;
+import AbstractFactory.Lippis;
+import AbstractFactory.Tpaita;
+import AbstractFactory.VaateFactory;
 
 public class AdidasFactory implements VaateFactory {
     @Override
