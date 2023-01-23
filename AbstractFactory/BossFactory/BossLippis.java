@@ -6,8 +6,11 @@ public class BossLippis implements Lippis {
 
     @Override
     public void pueLippis() {
-        // TODO Auto-generated method stub
+        System.out.println("Puit bossin lippiksen");
         
     }
-    
+    @Override
+    public String toString() {
+        return("Bossin Lippis");
+    }   
 }

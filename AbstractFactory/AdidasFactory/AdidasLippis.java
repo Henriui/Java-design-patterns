@@ -6,8 +6,11 @@ public class AdidasLippis implements Lippis {
 
     @Override
     public void pueLippis() {
-        // TODO Auto-generated method stub
+        System.out.println("Puit adidaksen lippiksen");
         
     }
-    
+    @Override
+    public String toString() {
+        return("Adidaksen lippis");
+    }    
 }

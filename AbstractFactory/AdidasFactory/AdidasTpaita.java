@@ -6,8 +6,10 @@ public class AdidasTpaita implements Tpaita{
 
     @Override
     public void pueTpaita() {
-        // TODO Auto-generated method stub
-        
+        System.out.println("Puit adidaksen t-paidan");
     }
-    
+    @Override
+    public String toString() {
+        return("Adidaksen t-paita");
+    }    
 }

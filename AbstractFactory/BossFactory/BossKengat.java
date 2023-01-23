@@ -6,8 +6,11 @@ public class BossKengat implements Kengat {
 
     @Override
     public void pueKengat() {
-        // TODO Auto-generated method stub
+        System.out.println("Puit bossin kengät");
 
     }
-
+    @Override
+    public String toString() {
+        return("Bossin Kengät");
+    }
 }

@@ -6,8 +6,11 @@ public class AdidasFarmarit implements Farmarit {
 
     @Override
     public void pueFarmarit() {
-        // TODO Auto-generated method stub
-        
+        System.out.println("Puit Addun farmarit");
+    }
+    @Override
+    public String toString() {
+        return("Adidas farmarit");
     }
     
 }

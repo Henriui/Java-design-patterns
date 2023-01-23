@@ -6,7 +6,10 @@ public class BossFarmarit implements Farmarit {
 
     @Override
     public void pueFarmarit() {
-        // TODO Auto-generated method stub
+        System.out.println("Puit bossin farmarit");
     }
-
+@Override
+public String toString() {
+    return("Bossin Farmarit");
+}
 }
