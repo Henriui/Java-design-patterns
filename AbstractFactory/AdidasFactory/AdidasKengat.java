@@ -6,10 +6,10 @@ public class AdidasKengat implements Kengat {
 
     @Override
     public void pueKengat() {
-        System.out.println("Puit addun kengät");
+        System.out.println("Puit addun kengät\n");
     }
     @Override
     public String toString() {
-        return("Adidas kengät");
+        return("Adidas kengät\n");
     }
 }

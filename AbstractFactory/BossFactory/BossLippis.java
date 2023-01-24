@@ -6,11 +6,11 @@ public class BossLippis implements Lippis {
 
     @Override
     public void pueLippis() {
-        System.out.println("Puit bossin lippiksen");
+        System.out.println("Puit bossin lippiksen\n");
         
     }
     @Override
     public String toString() {
-        return("Bossin Lippis");
+        return("Bossin Lippis\n");
     }   
 }

@@ -6,11 +6,11 @@ public class BossTpaita implements Tpaita{
 
     @Override
     public void pueTpaita() {
-        System.out.println("Puit bossin tpaita");
+        System.out.println("Puit bossin tpaita\n");
         
     }
     @Override
 public String toString() {
-    return("Bossin T-paita");
+    return("Bossin T-paita\n");
 }
 }

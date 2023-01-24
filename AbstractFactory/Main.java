@@ -12,6 +12,7 @@ public class Main {
         Tpaita tpaita = vaatteet.luoTpaita();
         Lippis lippis = vaatteet.luoLippis();
         Farmarit farmarit = vaatteet.luoFarmarit();
+        
         kengat.pueKengat();
         tpaita.pueTpaita();
         lippis.pueLippis();

@@ -6,11 +6,11 @@ public class AdidasLippis implements Lippis {
 
     @Override
     public void pueLippis() {
-        System.out.println("Puit adidaksen lippiksen");
+        System.out.println("Puit adidaksen lippiksen\n");
         
     }
     @Override
     public String toString() {
-        return("Adidaksen lippis");
+        return("Adidaksen lippis\n");
     }    
 }
