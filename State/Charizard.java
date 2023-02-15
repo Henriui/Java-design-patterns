@@ -3,7 +3,7 @@ package State;
 public class Charizard implements Evolution {
 
     public Charizard() {
-        System.out.println("Charmeleon evolved into Charizard");
+        System.out.println("Charmeleon evolved into Charizard!");
     }
 
     @Override
