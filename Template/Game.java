@@ -1,3 +1,4 @@
+package Template;
 /**
   * An abstract class that is common to several games in
   * which players play against the others, but only one is
