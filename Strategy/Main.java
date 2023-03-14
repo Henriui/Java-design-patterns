@@ -19,7 +19,7 @@ public class Main {
         long startTime = System.currentTimeMillis();
 
         // Create a new instance of the BubbleSort class and call the sort method.
-        ISort sort = new BubbleSort();
+        SortContext sort = new SortContext(new BubbleSort());
         sort.sort(randint);
 
         // Stop timer.
@@ -38,7 +38,7 @@ public class Main {
         startTime = System.currentTimeMillis(); // record start time
 
         // Create a new instance of the QuickSort class and call the sort method.
-        sort = new QuickSort();
+        sort.setSortStrategy(new QuickSort());
         sort.sort(randint);
 
         endTime = System.currentTimeMillis(); // record end time
@@ -56,8 +56,8 @@ public class Main {
         startTime = System.currentTimeMillis(); // record start time
 
         // Create a new instance of the SelectionSort class and call the sort method.
-        sort = new SelectionSort();
-        sort.sort(randint);
+        sort.setSortStrategy(new SelectionSort());
+                sort.sort(randint);
 
         endTime = System.currentTimeMillis(); // record end time
 
@@ -67,7 +67,7 @@ public class Main {
 
     private static int[] scrambleNumbers() {
         Random random = new Random();
-        int[] randint = new int[10000];
+        int[] randint = new int[1000000];
 
         for (int i = 0; i < randint.length; i++)
             randint[i] = random.nextInt(999999999);
