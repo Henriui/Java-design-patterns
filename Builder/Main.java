@@ -10,10 +10,10 @@ public class Main {
     
         ravintola.setBuilder(new HeseBuilder());
         b = ravintola.getHamppari();
-        System.out.println(b.print());
+        System.out.println("hese: " + b.print());
 
         ravintola.setBuilder(new MäkkäriBuilder());
         b = ravintola.getHamppari();
-        System.out.println(b.print());
+        System.out.println("mäkkäri: " +b.print());
     }
 }

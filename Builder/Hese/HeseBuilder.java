@@ -9,12 +9,12 @@ public class HeseBuilder extends HamppariBuilder{
 
     @Override
     public void build() {
-        new KanaPihvi().setPihvi(x);
+        burger.buildBurger(x.toString());
     }
-
+    
     @Override
     public void addPihvi() {
-        burger.buildBurger(x.toString());
+        new KanaPihvi().setPihvi(x);
     }
 
     @Override
