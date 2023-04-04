@@ -8,5 +8,8 @@ public abstract class HamppariBuilder {
 
         return burger;
     }
-    public abstract void buildBurger();
+
+    public abstract void addPihvi();
+    public abstract void addSämpylä();
+    public abstract void build();
 }

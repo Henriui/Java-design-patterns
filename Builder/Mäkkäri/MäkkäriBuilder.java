@@ -9,9 +9,7 @@ public class MäkkäriBuilder extends HamppariBuilder {
     private ArrayList<Object> x = new ArrayList<>();
 
     @Override
-    public void buildBurger() {
-        x.add(new VehnäSämpylä());
-        x.add(new NautaPihvi());
+    public void build() {
 
         String burgerContents = "";
         for (Object object : x) {
@@ -21,6 +19,15 @@ public class MäkkäriBuilder extends HamppariBuilder {
         burger.buildBurger(burgerContents);
     }
 
+    @Override
+    public void addPihvi() {
+        x.add(new VehnäSämpylä());
+    }
+
+    @Override
+    public void addSämpylä() {
+        x.add(new NautaPihvi());
+    }
 }
 
 class NautaPihvi {

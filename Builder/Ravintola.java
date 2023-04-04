@@ -9,7 +9,9 @@ public class Ravintola {
     
     public Burger getHamppari() {
 
-        builder.buildBurger();
+        builder.addPihvi();
+        builder.addSämpylä();
+        builder.build();
         return builder.getBurger();
     }
 

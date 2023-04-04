@@ -8,10 +8,18 @@ public class HeseBuilder extends HamppariBuilder{
     private StringBuilder x = new StringBuilder();
 
     @Override
-    public void buildBurger() {
-        new RuisSämpylä().setSämpylä(x);
+    public void build() {
         new KanaPihvi().setPihvi(x);
+    }
+
+    @Override
+    public void addPihvi() {
         burger.buildBurger(x.toString());
+    }
+
+    @Override
+    public void addSämpylä() {
+        new RuisSämpylä().setSämpylä(x);
     }
 
 }
