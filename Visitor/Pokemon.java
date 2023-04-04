@@ -2,7 +2,7 @@ package Visitor;
 
 public class Pokemon {
     EvoVisitor v = new EvoVisitor();
-
+    int xp = 0;
     Evolution evolution = new Charmander(v, this);
 
     public void setState(Evolution x) {
@@ -21,5 +21,12 @@ public class Pokemon {
         evolution.defend();
     }
 
+    public void addXp(int x) {
+        xp += x;
+    }
+
+    public int getXp() {
+        return xp;
+    }
 
 }

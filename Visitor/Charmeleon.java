@@ -12,16 +12,20 @@ public class Charmeleon implements Evolution {
     
     public void attack() {
         System.out.println("Charmeleon used Flamethrower!");
-        xp++;
-        if (xp == 4) {
-            v.visit(this, p);
-        }
+        p.addXp(1);
+        v.visit(this, p);
+        
     }
     public void specialAttack() {
         System.out.println("Charmeleon used Fire Spin!");
+        p.addXp(1);
+        v.visit(this, p);
+        
     }
     
     public void defend() {
         System.out.println("Charmeleon used Defense Curl!");
+        p.addXp(1);
+        v.visit(this, p);
     }
 }
