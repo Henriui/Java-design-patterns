@@ -191,7 +191,6 @@ b) Voitaisiinko State-mallia käytettäessä päätös seuraavasta tilasta (= ti
 ### 15
 15.	Adapter: Adapter-ratkaisu mahdollistaa olemassa olevan ohjelmamoduulin (esim. luokka) käyttämisen vaikka sen rajapinta olisi erilainen, kuin mitä asiakas haluaa käyttää. Mieti itse tätä havainnollistava esimerkki ja toteuta ohjelma, jossa esität, kuinka adapterin avulla olemassa oleva luokka palveluineen voidaan ottaa käyttöön muuttamatta tätä millään tavalla.
 
-## NOT DONE
 ### 16
 16.	Bridge: Bridge-mallin idea on, että jokin yhdellä ohjelmistokerroksella toimiva abstraktio voidaan toteuttaa eri alustoilla ja että alusta voidaan vaikkapa vaihtaa kääntämättä asiakasohjelmaa. Valmistaudu kertomaan  jokin esimerkki, jossa yhden kerroksen palvelu voidaan toteuttaa kahdella eri alustalla. Palauta kertomuksesi kirjallisessa muodossa OMAaan.
 
@@ -202,6 +201,7 @@ https://www.infoworld.com/article/2073632/make-your-apps-fly.html
 
 Testaa esimerkit 1 ja 2: String ja Border. Kokeile, mitä tapahtuu, jos muutat toisen paneelin kokoa Border-ohjelmassa. Testaa myös OMAn Dokumentit/Tehtäväpohjat-kansiossa oleva JavaFX-esimerkki, jossa on samanlainen asetelma kuin Java Swing Border -esimerkissä. Valmistaudu esittelemään testiajot ja kertomaan, mitä testien perusteella voidaan todeta. Palauta raportti OMAan.
 
+## NOT DONE
 ### 18
 18.	Prototype: Kirjoita kello+viisarit -ohjelma, jossa  kello koostuu viisariolioista ja selvitä sen avulla, kuinka Javassa toteutetaan Prototype-mallia (Object.clone()). Esitä sellainen esimerkki, jossa toteutuu syväkopiointi. Eli: tee kellosta klooni ja katso kuinka se käyttäytyy suhteessa alkuperäiseen, jos muutat alkuperäisen tai kloonin kellonaikaa.
 Testaa myös matalakopiointi.
