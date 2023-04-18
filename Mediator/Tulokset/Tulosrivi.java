@@ -1,6 +1,5 @@
 package Mediator.Tulokset;
 import Mediator.Mediator;
-import Mediator.Hyppyjäbä.Hyppy;
 
 public class Tulosrivi {
     
