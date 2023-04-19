@@ -70,7 +70,7 @@ public class Mediator {
         // Jokainen hyppääjä hyppää, sitten mitataan, lasketaan pisteet ja arvostellaan.
 
         for (Hyppääjä hyppääjä : hy) {
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 2; i++) {
                 hyppääjä.hyppää();
                 mimi.mittaa();
                 kisi.laskePisteet();

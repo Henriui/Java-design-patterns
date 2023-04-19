@@ -43,6 +43,6 @@ private double[][] hyppy = new double[2][2];
         if (hyppy[0][0] > hyppy[1][0]) {
             return hyppy[0][0];
         }
-        return hyppy[0][1];
+        return hyppy[1][0];
     }
 }
