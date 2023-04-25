@@ -201,12 +201,12 @@ https://www.infoworld.com/article/2073632/make-your-apps-fly.html
 
 Testaa esimerkit 1 ja 2: String ja Border. Kokeile, mitä tapahtuu, jos muutat toisen paneelin kokoa Border-ohjelmassa. Testaa myös OMAn Dokumentit/Tehtäväpohjat-kansiossa oleva JavaFX-esimerkki, jossa on samanlainen asetelma kuin Java Swing Border -esimerkissä. Valmistaudu esittelemään testiajot ja kertomaan, mitä testien perusteella voidaan todeta. Palauta raportti OMAan.
 
-## NOT DONE
 ### 18
 18.	Prototype: Kirjoita kello+viisarit -ohjelma, jossa  kello koostuu viisariolioista ja selvitä sen avulla, kuinka Javassa toteutetaan Prototype-mallia (Object.clone()). Esitä sellainen esimerkki, jossa toteutuu syväkopiointi. Eli: tee kellosta klooni ja katso kuinka se käyttäytyy suhteessa alkuperäiseen, jos muutat alkuperäisen tai kloonin kellonaikaa.
 Testaa myös matalakopiointi.
 ### 19
 19.	Mediator: Suunnittele mäkihyppykisan luokat ja niiden välinen toiminta. Luokkia: Hyppääjä, Hyppy (jokaisella hyppääjällä on kaksi hyppyä, hyppääjä ylläpitää omat hyppynsä pituus- ja tyylipistetietoineen 2-alkioisessa Hyppy-taulukossaan), Mittamies, Arvostelutuomarit (5 kpl), Tulostaulu, Tulosrivi, Kisasihteeri (laskee hypyn jälkeen sille pisteet eli on käytännössä pelkkä laskukaavan tunteva laskukone, Mediator välittää sille kaikki lähtötiedot). Mediator on vastuussa edellä esitettyjen luokkien välisen kommunikointiprotokollan toteuttamisesta. Suunnittele se. Esitä  ratkaisu sekvenssikaavion avulla. 
+## NOT DONE
 
 ### 20
 20.	Iterator: 
